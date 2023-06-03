@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="545.249" height="143.356" viewBox="0 0 545.249 143.356">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.558" gradientTransform="matrix(-1, 0, 0, 2.748, 1, -0.874)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffaa63"/>
+      <stop offset="1" stop-color="#fa8019"/>
+    </radialGradient>
+  </defs>
+  <path id="Path_17313" data-name="Path 17313" d="M11409.953,495.392s49.9,10.95,144.053-25.4,139.771-17.008,236.735,25.4,158.359-12.115,158.359-12.115V374.241H11419.31l-15.458-6.058Z" transform="translate(-11403.852 -368.184)" opacity="0.09" fill="url(#radial-gradient)"/>
+</svg>

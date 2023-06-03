@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الرئيسية</title>
+    <!-- Bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+   <!-- icons fontAwsome -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <!-- fonts -->
+   <link rel="stylesheet" href="../assets//fonts//GESSTwoMedium-Medium.ttf">
+   <!-- style css -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+   
+</head>
+<body>
+    <!--start Header-->
+    <div class="header fixed-top" id="header">
+        <div class="container-fluid py-3">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="col-lg-3 col-md-8 col-8">
+                <a class="navbar-brand" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="259.906" height="74" viewBox="0 0 259.906 74">
+                    <g id="Logoo" transform="translate(222.09)">
+                      <rect id="Rectangle_1165" data-name="Rectangle 1165" width="44" height="74" rx="3" transform="translate(-6.184)" fill="#fff"/>
+                      <g id="ticks" transform="translate(3.666 5.48)">
+                        <path id="Logo_NIKE" d="M3.065,13.2S.775,13.106.147,11.772,1.1,7.158,1.1,7.158A14.078,14.078,0,0,1,3.3,3.482c.2-.225.576-.686.8-.884s.452-.328.421.205a16.914,16.914,0,0,0,0,3.993h0s.225,1.278,2.343,1.145a29.461,29.461,0,0,0,6.124-1.672l2.086-.9S26.2.3,26.822.068s1.516.112-.726,1.49c-3.231,1.984-7.619,5.371-13.251,8.37a54.164,54.164,0,0,1-5.15,2.356,16.6,16.6,0,0,1-4.631.915Z" transform="translate(0 22.377) rotate(-26)" fill="#fa8019"/>
+                        <path id="Logo_NIKE-2" data-name="Logo_NIKE" d="M2.138,9.207S.537,9.145.1,8.215s.664-3.22.664-3.22A9.824,9.824,0,0,1,2.3,2.432c.14-.157.4-.478.56-.617s.315-.229.29.143a11.8,11.8,0,0,0,0,2.786h0s.158.89,1.635.8A20.556,20.556,0,0,0,9.058,4.374l1.451-.627S18.281.212,18.715.047s1.058.078-.507,1.04c-2.255,1.384-5.316,3.749-9.246,5.84A37.8,37.8,0,0,1,5.368,8.572a11.585,11.585,0,0,1-3.231.635Z" transform="translate(0.001 13.574) rotate(-26)" fill="#fa8019"/>
+                        <path id="Logo_NIKE-3" data-name="Logo_NIKE" d="M1.491,6.421S.375,6.377.071,5.728.535,3.482.535,3.482A6.85,6.85,0,0,1,1.6,1.7c.1-.109.28-.334.387-.43s.22-.16.205.1A8.231,8.231,0,0,0,2.2,3.3h0s.11.62,1.14.556a14.331,14.331,0,0,0,2.98-.811l1.015-.438S12.748.148,13.049.033s.738.055-.354.724c-1.572.967-3.706,2.612-6.447,4.072A26.344,26.344,0,0,1,3.744,5.975a8.079,8.079,0,0,1-2.253.446Z" transform="translate(0.001 5.872) rotate(-26)" fill="#fa8019"/>
+                      </g>
+                      <line id="Line_56" data-name="Line 56" x1="45.013" transform="translate(-7.281 48.476)" fill="none" stroke="#fa7e19" stroke-width="2"/>
+                      <text id="ZOM" transform="translate(4.383 63.165)" fill="#f97f19" font-size="8" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="20" y="0">ZOM</tspan></text>
+                      <g id="slogan" transform="translate(-222.184 10.64)">
+                        <text id="زهـران_للصـيـانـة_والتشغـيـل" data-name="زهـران للصـيـانـة والتشغـيـل" transform="translate(10.031 17)" fill="#fff" font-size="16" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="180" y="0">زهـران للصـيـانـة والتشغـيـل</tspan></text>
+                        <text id="ZAHRAN_Operation_Maintenance" data-name="ZAHRAN Operation &amp; Maintenance" transform="translate(20.031 57.46)" fill="#fff" font-size="11" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="180" y="0">ZAHRAN Operation &amp; Maintenance</tspan></text>
+                        <path id="Path_1" data-name="Path 1" d="M204.6,0H-10.212" transform="translate(10.306 37.591)" fill="none" stroke="#fff" stroke-width="2"/>
+                      </g>
+                    </g>
+                </svg>
+            </a>
+                </div>
+                <div class="col-lg-9 menuBar">
+                <div class="openMenu" onclick="ShowMenu()"><i class="fa fa-bars"></i></div>
+                <ul class="main-nav-links mb-0 px-0">
+                    <li class="active link"><a href="#home">الرئيسية</a></li>
+                    <li class="link"><a href="#about">عن نظام المفقودات</a></li>
+                    <li class="link"><a href="#mechanism">آلية العمل</a></li>
+                    <li class="link"><a href="#clients">العملاء</a></li>
+                    <li class="link"><a href="#contact">اتصل بنا</a></li>
+                    <div class="btns-menu d-flex align-items-center">
+                    <li class="btn-add">
+                        <a href="add-new-missing.html">إضافة مفقود جديد <i class="fa-solid fa-plus fa-xs"></i></a>
+                    </li>
+                    <li class="btn-employee mx-3">
+                        <a href="#">بوابة الموظفين</a>
+                    </li>
+                    <li class="lang" onclick="dropdown()">
+                        <button><i class="fa-solid fa-chevron-down"></i>  عربى <i class="fa-solid fa-globe me-2"></i></button>
+                        <ul class="lang-dropdown px-0" id="lang-dropdown">
+                            <li><a href="#">English</a></li>
+                            <li><a href="#">Deutsche</a></li>
+                        </ul>
+                    </li>
+                  </div>
+
+                    <div class="closeMenu" onclick="CloseMenu()"><i class="fa fa-times"></i></div>
+                </ul>
+                </div>
+                <!-- <div class="col-lg-3">
+                <ul class="main-nav-btns d-flex justify-content-around align-items-center mb-0">
+                    
+                </ul>    
+                </div> -->
+            </div>      
+        </div>
+    </div>
+    <!--end Header-->
+
+    <!-- start main section -->
+    <div class="main-section" id="home">
+        <div class="container">
+            <div class="wave-background"></div>
+            <div class="content-main-section">
+            <div class="row">
+                <div class="text-main-section col-12 col-md-6">
+                    <h4>نظام المفقودات</h4>
+                    <p>نظام شامل للمفقودات التى يتم إيجادها<br> فى محطات المترو والباصات وغيرها<br> عن طريق موظفين الأمن</p>
+                </div>
+                <div class="main-img"></div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- end main section -->
+
+    <!-- start system features section -->
+    <div class="system-features-section">
+        <div class="container">
+            <div class="title-system-features">
+                <h4>مميزات نظام المفقودات</h4>
+                <p>هذا النص هو مثال لنص يمكن أن يستبدل فى نفس المساحة هذا النص هو متال لنص يمكن أن يستبدل فى <br> نفس المساحة</p>
+            </div>
+            <div class="boxes">
+                <div class="box  px-4 py-3">
+                    <div class="icon mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="74" height="74" viewBox="0 0 74 74">
+                            <g id="Group_23075" data-name="Group 23075" transform="translate(-1475 -1186)">
+                              <rect id="Rectangle_19" data-name="Rectangle 19" width="74" height="74" rx="8" transform="translate(1475 1186)" fill="#fa8019" opacity="0.1"/>
+                              <g id="Group_23074" data-name="Group 23074" transform="translate(948.594 1003.486)">
+                                <path id="Path_8" data-name="Path 8" d="M652.069,269.5a1.253,1.253,0,0,1-.523-1.151c.02-1.648-.024-3.3.024-4.943a5.661,5.661,0,0,1,.352-1.879,25.162,25.162,0,0,0,1.765-9.488c-.03-4.8,0-9.6-.01-14.4a2.5,2.5,0,0,0-3.372-2.411,2.535,2.535,0,0,0-1.644,2.415c-.016.877,0,1.755-.006,2.633,0,.61-.282.948-.769.963-.51.015-.833-.338-.836-.962-.01-1.827.012-3.654-.016-5.481a2.461,2.461,0,0,0-2.148-2.375,2.49,2.49,0,0,0-2.747,1.81,4.15,4.15,0,0,0-.1,1.012c-.009,1.594,0,3.188-.006,4.782a2.9,2.9,0,0,1-.037.588.783.783,0,0,1-1.53.015,3.027,3.027,0,0,1-.042-.641c0-2.114.018-4.227-.009-6.341a2.5,2.5,0,1,0-4.995-.049c-.013,2.149,0,4.3-.007,6.448a2.337,2.337,0,0,1-.063.636.719.719,0,0,1-.813.551.729.729,0,0,1-.714-.675,4.165,4.165,0,0,1-.017-.59q0-8.678,0-17.356a2.571,2.571,0,0,0-1.373-2.487,2.486,2.486,0,0,0-3.642,2.132c-.034,1.7-.01,3.4-.01,5.1q0,3.976,0,7.953a2.208,2.208,0,0,1-.04.586.744.744,0,0,1-.79.594.764.764,0,0,1-.766-.691,1.773,1.773,0,0,1-.011-.322c0-4.37-.011-8.741,0-13.111a4.118,4.118,0,1,1,8.233.109c.019,2.364,0,4.729,0,7.093,0,.2,0,.391,0,.677a4.277,4.277,0,0,1,3.564-.666,4.216,4.216,0,0,1,2.718,2.313,4.1,4.1,0,0,1,4.2-.872,4.161,4.161,0,0,1,2.746,3.285,4.172,4.172,0,0,1,3.6-.7,4.055,4.055,0,0,1,3.03,3.853c.015,5.355.038,10.711-.021,16.066a24.052,24.052,0,0,1-1.73,8.312,5.85,5.85,0,0,0-.349,1.873c-.049,1.575-.03,3.152-.008,4.728a1.06,1.06,0,0,1-.566,1.061Z" transform="translate(-71.823 -22.473)" fill="#fa8019"/>
+                                <path id="Path_9" data-name="Path 9" d="M559.544,389.677a1.239,1.239,0,0,1-.528-1.147c.02-1.843.008-3.686.008-5.557-.357-.117-.694-.217-1.025-.336a10.448,10.448,0,0,1-5.189-3.984q-4.36-6.349-8.684-12.722a4.3,4.3,0,0,1,6.7-5.368c1.377,1.456,2.718,2.946,4.072,4.424a4.744,4.744,0,0,1,.31.422l.127-.078c.007-.17.021-.339.022-.509,0-1.773,0-3.547,0-5.32,0-.626.3-.992.8-.991s.8.369.8.995c0,2.221,0,4.442,0,6.663a1.31,1.31,0,0,1-.8,1.333,1.282,1.282,0,0,1-1.536-.431q-2.475-2.683-4.94-5.376a2.6,2.6,0,0,0-2.564-.874,2.679,2.679,0,0,0-1.665,4.2c1.159,1.742,2.355,3.461,3.534,5.19,1.664,2.438,3.335,4.871,4.991,7.315a9.128,9.128,0,0,0,5.525,3.883,1.287,1.287,0,0,1,1.125,1.459c0,1.917-.011,3.833.01,5.75a1.074,1.074,0,0,1-.562,1.063Z" transform="translate(0 -142.65)" fill="#fa8019"/>
+                                <path id="Path_10" data-name="Path 10" d="M603.614,192c.835.239,1.673.47,2.5.723a3.674,3.674,0,0,1,.677.317.816.816,0,0,1,.445,1.149c-.221.409-.644.48-1.167.3a15.14,15.14,0,0,0-2.591-.8,7.349,7.349,0,0,0-8.138,6.234,7.633,7.633,0,0,0,.668,4.282c.267.569.148,1.02-.3,1.237s-.863.018-1.147-.552a8.993,8.993,0,0,1,6.711-12.785,3.914,3.914,0,0,0,.41-.1Z" transform="translate(-43.105)" fill="#fa8019"/>
+                                <path id="Path_11" data-name="Path 11" d="M559.84,215.692a13.18,13.18,0,0,1,1.226-4.985c.278-.613.7-.828,1.161-.607s.572.648.317,1.235a12.206,12.206,0,0,0-.008,10.133c.266.613.141,1.067-.335,1.271s-.874-.03-1.15-.648A14.734,14.734,0,0,1,559.84,215.692Z" transform="translate(-14.137 -15.434)" fill="#fa8019"/>
+                                <path id="Path_12" data-name="Path 12" d="M735.647,216.447a13.784,13.784,0,0,1-1.245,5.715c-.259.567-.685.783-1.134.579s-.593-.652-.34-1.23a12.181,12.181,0,0,0,0-10.181c-.254-.579-.124-1.015.343-1.227.452-.205.866.006,1.131.577A13.9,13.9,0,0,1,735.647,216.447Z" transform="translate(-162.313 -15.443)" fill="#fa8019"/>
+                                <path id="Path_13" data-name="Path 13" d="M699.406,220.644a8.476,8.476,0,0,1-.887,3.711c-.277.576-.689.77-1.146.555s-.578-.649-.314-1.235a7.3,7.3,0,0,0-.614-7.489c-.38-.57-.354-1.019.08-1.313s.859-.151,1.251.409A8.945,8.945,0,0,1,699.406,220.644Z" transform="translate(-130.938 -19.47)" fill="#fa8019"/>
+                              </g>
+                            </g>
+                          </svg>                          
+                    </div>
+                    <h5 class="mb-4">سهولة الإستخدام</h5>
+                    <p>نظام سهل الاستخدام في إضافة المفقودات 
+                      داخل محطات المترو و الحافلات و إيجاد
+                      المفقودات بكل سهولة من الارشيف</p>
+                </div>
+                <div class="box box-active   px-4 py-3">
+                    <div class="icon mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="74" height="74" viewBox="0 0 74 74">
+                            <g id="Group_23076" data-name="Group 23076" transform="translate(-1475 -1186)">
+                              <rect id="Rectangle_19" data-name="Rectangle 19" width="74" height="74" rx="8" transform="translate(1475 1186)" fill="#fa8019" opacity="0.1"/>
+                              <g id="Group_23077" data-name="Group 23077" transform="translate(966.292 973.607)">
+                                <path id="Path_15" data-name="Path 15" d="M584.823,305.648l6.8-16.089c-2.416-2.481-2.748-4.865-.977-6.959a4.586,4.586,0,0,1,6.1-.781c2.115,1.5,2.525,4.04,1.041,6.659l7.364,8.038a4.838,4.838,0,0,1,5.322.192L616.5,291c-.627-.621-1.233-1.209-1.824-1.811-.644-.655-.513-1.221.357-1.525,2.581-.9,5.161-1.806,7.756-2.668a1.226,1.226,0,0,1,1.024.127,1.135,1.135,0,0,1,.1.976c-.871,2.618-1.779,5.225-2.688,7.83-.29.831-.859.954-1.49.328-.708-.7-1.4-1.426-2.14-2.19l-6.083,5.758a4.571,4.571,0,0,1,.5,4.077,4.668,4.668,0,0,1-1.89,2.414,4.565,4.565,0,0,1-5.632-.586,4.7,4.7,0,0,1-.463-6.174l-7.385-8.072a4.792,4.792,0,0,1-3.577.606l-6.813,16.11c2.358,2.49,2.715,4.671,1.128,6.779a4.549,4.549,0,0,1-5.715,1.289,4.629,4.629,0,0,1-2.331-5.454A4.722,4.722,0,0,1,584.823,305.648Zm19.811-5.216A3.009,3.009,0,0,0,607.7,303.5a3.109,3.109,0,0,0,3.058-3.1,3.069,3.069,0,0,0-3.031-3.046A2.982,2.982,0,0,0,604.633,300.432Zm-20.861,12.788a3.008,3.008,0,0,0,3.038-3.087,3.065,3.065,0,0,0-6.13,0A2.986,2.986,0,0,0,583.773,313.221Zm10.335-30.679a3.067,3.067,0,1,0,.042,6.135,3.067,3.067,0,1,0-.042-6.135Zm26.063,9.809,1.89-5.5-5.479,1.9Z" transform="translate(-51.371 -49.16)" fill="#fa8019"/>
+                                <path id="Path_16" data-name="Path 16" d="M539.61,274.22h-8.142c0,.618.007,1.205,0,1.793-.009.651-.319,1.063-.8,1.016-.585-.059-.751-.459-.735-1,.017-.573,0-1.146,0-1.8-.252-.017-.474-.043-.7-.044-1.444,0-2.888.006-4.332,0a4.316,4.316,0,0,1-4.645-4.659c0-1.635,0-3.27,0-5.024-.582,0-1.121,0-1.661,0a4.8,4.8,0,0,1-.7-.026c-.438-.068-.753-.361-.645-.78a1.1,1.1,0,0,1,.677-.679,7.719,7.719,0,0,1,1.585-.046c.228,0,.456,0,.712,0v-8.156c-.569,0-1.13,0-1.691,0-.233,0-.527.064-.684-.05a1.409,1.409,0,0,1-.6-.765c-.059-.424.282-.694.728-.7.737-.015,1.474,0,2.239,0v-8.168c-.688,0-1.341.006-1.993,0s-1.047-.311-1-.8c.056-.6.472-.741,1-.733.653.011,1.305,0,1.995,0v-8.154c-.653,0-1.283,0-1.914,0-.717-.005-1.093-.283-1.084-.789.008-.488.357-.737,1.049-.741.633,0,1.266,0,1.942,0v-8.166c-.727,0-1.46.014-2.193-.005a.727.727,0,0,1-.789-.744.7.7,0,0,1,.688-.768,4.69,4.69,0,0,1,.573-.011c.567,0,1.134,0,1.768,0,0-.576,0-1.081,0-1.586s.2-.85.718-.87c.549-.021.791.333.809.856.007.212,0,.425,0,.638q0,23.136-.007,46.273a2.748,2.748,0,0,0,.893,2.351,5.158,5.158,0,0,0,1.578.733,3.583,3.583,0,0,0,1.076.049q23.6,0,47.2,0c.212,0,.425,0,.637,0,.7.016,1.022.261,1.011.777s-.328.743-1.04.751c-.764.009-1.529,0-2.293,0h-.719c0,.672.008,1.28,0,1.888s-.308.995-.775.95c-.545-.052-.748-.422-.75-.932,0-.612,0-1.223,0-1.87h-8.15a15.255,15.255,0,0,1-.031,2.069,1.025,1.025,0,0,1-.655.69c-.214.046-.555-.267-.756-.495-.113-.128-.069-.406-.072-.618-.008-.528,0-1.057,0-1.633h-8.134c0,.608,0,1.2,0,1.786,0,.526-.154.941-.742,1-.481.05-.775-.341-.785-1.008-.008-.572,0-1.144,0-1.773h-8.143a16.464,16.464,0,0,1-.024,1.934,1.154,1.154,0,0,1-.518.767.9.9,0,0,1-.773-.2,1.062,1.062,0,0,1-.2-.7C539.592,275.463,539.61,274.871,539.61,274.22Z" transform="translate(0)" fill="#fa8019"/>
+                              </g>
+                            </g>
+                          </svg>                                                
+                    </div>
+                    <h5 class="mb-4">تقارير يومية</h5>
+                    <p>توافر تقارير يومية للمفقودات  تقارير توضح اجمالي
+                      المفقودات , إجمالي المفقودات المسلمة
+                     إجمالي المحطات و الموظفين </p>
+                </div>
+                <div class="box   px-4 py-3">
+                    <div class="icon mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="74" height="74" viewBox="0 0 74 74">
+                            <g id="Group_23129" data-name="Group 23129" transform="translate(-371 -1186)">
+                              <rect id="Rectangle_22" data-name="Rectangle 22" width="74" height="74" rx="8" transform="translate(371 1186)" fill="#fa8019" opacity="0.1"/>
+                              <g id="Group_23078" data-name="Group 23078" transform="translate(-239.113 1261.273)">
+                                <path id="Path_19" data-name="Path 19" d="M624.328-13a.986.986,0,0,0-.167-.09,2.693,2.693,0,0,1-2.041-2.729c-.016-1.113,0-2.226,0-3.338q0-13.968,0-27.936a4.871,4.871,0,0,1,.1-1.168,2.7,2.7,0,0,1,2.69-2.032c1.23-.019,2.46,0,3.69,0h.6c-.13-.962-.2-1.889-.389-2.791-.376-1.809.28-2.458,2.015-2.652,2.637-.295,5.259-.718,7.887-1.088a2.736,2.736,0,0,0,.281-.075c.128-1.257.257-2.523.385-3.79q.054-.537.1-1.075a1.543,1.543,0,0,1,1.761-1.5c1.763.158,3.523.346,5.285.52l9.493.939c.767.076,1.534.139,2.3.224.566.062.821.339.779.8s-.339.689-.917.634c-2.464-.236-4.926-.485-7.389-.729q-4.673-.464-9.346-.925c-.144-.014-.291,0-.506,0l-.474,4.719c1.1-.153,2.151-.3,3.2-.444,3.358-.472,6.715-.952,10.074-1.416a1.594,1.594,0,0,1,1.922,1.437c.171,1.049.3,2.1.451,3.156.027.191.065.38.105.611l3.015-.158c.328-.017.655-.047.982-.054a1.575,1.575,0,0,1,1.74,1.541c.113,1.5.174,3.005.258,4.508l.211,3.8h1.185c.09-.863.183-1.722.268-2.581.388-3.89.79-7.778,1.15-11.671.116-1.254.391-1.078-.985-1.209-.571-.055-1.142-.111-1.711-.183a.657.657,0,0,1-.635-.772.653.653,0,0,1,.763-.647c.915.074,1.831.145,2.74.269a1.539,1.539,0,0,1,1.347,1.755c-.158,1.874-.358,3.745-.542,5.617-.1,1.054-.207,2.108-.316,3.222.987,0,1.934-.01,2.881,0a2.728,2.728,0,0,1,2.741,2.032,3.946,3.946,0,0,1,.1.972q.007,15.637.01,31.274A2.9,2.9,0,0,1,669.2-13H633.677a.83.83,0,0,1-.352-1.02c.175-.432.569-.429.956-.429q16.925,0,33.851,0c.213,0,.427,0,.639-.012a1.21,1.21,0,0,0,1.148-.97,3.061,3.061,0,0,0,.056-.681q0-12.962,0-25.924v-.6H634.434c-.96,0-.992-.022-1.284-.926-.518-1.6-1.043-3.2-1.544-4.807-.107-.341-.243-.491-.637-.486-1.968.024-3.936.009-5.9.012a1.333,1.333,0,0,0-1.51,1.509q0,15.687,0,31.374a1.323,1.323,0,0,0,1.5,1.512c1.443.006,2.887,0,4.33,0,.381,0,.765-.017.965.415s-.052.737-.315,1.034Zm36.616-31.093c0-.189.008-.349,0-.508-.131-2.451-.28-4.9-.384-7.353-.02-.477-.177-.565-.611-.539-2.946.177-5.893.336-8.84.494q-5.894.317-11.789.625c-1.011.054-2.021.122-3.085.187l.392,7.094Zm-30.82-10.072c.141.99.278,1.894.4,2.8.136,1.054.128,1.055,1.193,1.067.641.008.818.136,1.022.765.54,1.662,1.1,3.319,1.6,4.991.139.459.357.563.808.422,0-.188.009-.38,0-.571-.111-2.041-.218-4.083-.342-6.124a1.6,1.6,0,0,1,1.625-1.845q7.61-.409,15.22-.816c1.026-.055,2.051-.121,3.106-.184-.165-1.158-.348-2.254-.467-3.358-.049-.455-.232-.521-.63-.464q-4.985.713-9.973,1.4-5.522.774-11.043,1.547C631.819-54.415,631-54.292,630.124-54.166Zm34.946,10.054h4.9c0-1.189.019-2.331-.007-3.472a1.2,1.2,0,0,0-1.1-1.237c-1.092-.045-2.187-.012-3.318-.012Z" transform="translate(0 0)" fill="#fa8019"/>
+                                <path id="Path_20" data-name="Path 20" d="M716.92,203.9h12.934c.878,0,1.079.2,1.079,1.054q0,2.993,0,5.987c0,.732-.236.974-.969.974q-13.106,0-26.211,0c-.708,0-.954-.246-.955-.938q0-3.067,0-6.134c0-.7.241-.942.944-.942Q710.33,203.9,716.92,203.9ZM704.3,205.366v5.078h25.148v-5.078Z" transform="translate(-70.099 -232.127)" fill="#fa8019"/>
+                                <path id="Path_25" data-name="Path 25" d="M746.886,230.347q-4.279,0-8.558,0c-.386,0-.723-.052-.873-.471a.7.7,0,0,1,.554-.956,3.009,3.009,0,0,1,.49-.019H755.37c.115,0,.23,0,.344,0a.72.72,0,1,1-.024,1.437c-1.049.009-2.1,0-3.148,0Z" transform="translate(-100.17 -253.851)" fill="#fa8019"/>
+                              </g>
+                            </g>
+                          </svg>                                                                         
+                    </div>
+                    <h5 class="mb-4">أرشيف بكل المفقودات</h5>
+                    <p>أرشيف خاص بجميع أنواع المفقودات 
+                        مع سهولة البحث و معاينة و حذف
+                         المفقود</p>
+                  </div>
+            </div>
+        </div>
+    </div>    
+    <!-- end system features section -->
+
+    <!-- start about system section -->
+    <div class="about-system-section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-12">
+                    <h4>نبذة عن نظام المفقودات</h4>
+                    <div class="d-flex mb-2">
+                      <span>
+                        <img src="../assets/images/QM.svg" alt="">
+                      </span>
+                        <p class="me-2"> نظام شامل للمفقودات التى يتم ايجادها فى محطات المترو والباصات وغيرها عن طريق موظفين الامن</p>
+                    </div>
+                    <div class="d-flex mb-2">
+                      <span>
+                        <img src="../assets/images/QM.svg" alt="">
+                      </span>
+                        <p class="me-2">تصنيفات لا نهائية للمفقودات (الجولات - النقود - مقتنيات ذهبية - اكسسوارات- كتب ومستندات) وغيرها</p>
+                    </div>
+                    <div class="d-flex mb-2">
+                      <span>
+                        <img src="../assets/images/QM.svg" alt="">
+                      </span>
+                        <p class="me-2"> يعمل النظام على إضافة المفقود داخل المنصة مع توليد باركود خاص بكل قطعة واضافة بيانات القطعة مثل(تحديد مكان الفقد - تاريخ الفقد- إضافة شرح وبيانات كتابية عن القطعة -إضافة الصور الخاصة بالقطعة - تحديد مكان التخزين) وغيرها</p>
+                    </div>
+                    <div class="d-flex mb-2">
+                      <span>
+                        <img src="../assets/images/QM.svg" alt=""> 
+                      </span>
+                        <p class="me-2">نظام احصائيات وتقديم مجموعة من التقارير مثل التقارير الأسبوعية والشهرية والسنوية عن المفقودات - المفقودات المسلمة - مدخلات الموظفين - أماكن ومحطات </p>
+                    </div>
+                </div>
+                <div class="about-img col-12 col-md-6 d-flex justify-content-end">
+                    <img src="../assets/images/aboutImg.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end about system section -->
+
+    <!-- start Mechanism section -->
+    <div class="mechanism-section" id="mechanism">
+      <div class="container">
+        <div class="title-mechanism-section">
+          <h4>آلية عمل مفقودات</h4>
+          <p>كيفية وآلية العمل داخل نظام المفقودات</p>
+      </div>
+      <div class="row mechanism-QM">
+        <div class="col-12 col-md-6">
+                <h2 class="number">01</h2>
+                <h5 class="me-2 subTitle-mechanism">إضافة مفقود جديد</h5>
+                <p class="description-mechanism">يتم  إضافة مفقود جديد عن طريق إدخال نوع المفقود و تفاصيل المفقود 
+                  و تاريخ الفقد , اسم المحطة و رقم المحطة و عنوان المحطة , مكان التخزين 
+                  و من ثم توليد الباركود الخاص بالمفقود لطباعته علي المفقود لسهولة البحث عنه
+                  بعد حفظه في مخازن المحطات   </p>
+        </div>
+        <div class="mechanism-img col-12 col-md-6 d-flex justify-content-end">
+          <img src="../assets/images/mechanismImg.svg" alt="">
+      </div>
+      </div>
+      <div class="row" style="margin: 50px 0px;">  
+       <div class="mechanism-img col-12 col-md-6 d-flex justify-content-start">
+          <img src="../assets/images/mechanismImg2.svg" alt="">
+       </div>
+       <div class="col-12 col-md-6">
+        <h2 class="number">02</h2>
+        <h5 class="me-2 subTitle-mechanism">استعلام عن مفقود</h5>
+        <p class="description-mechanism">بإمكانك الاستعلام عن أي مفقود بكل سهولة عن طريق الذهاب الي الأرشيف الخاص بالمفقودات 
+          و البحث عن المفقود  عن طريق الرقم التسلسل او نوع و اسم المفقود , بيتم عرض تاريخ إيجاد المفقود و اسم و موقع  و رقم المحطة  و مكان التخزين 
+          
+          بإمكانك عرض و  الإطلاع علي كل مفقود على حدى ,أو تعديل البيانات الخاصة به أو حذفه من الأرشيف بكل سهولة </p>
+       </div>
+      </div>
+      <div class="row mechanism-QM">
+        <div class="col-12 col-md-6">
+                <h2 class="number">03</h2>
+                <h5 class="me-2 subTitle-mechanism">معاينة التقارير</h5>
+                <p class="description-mechanism">بإمكانك معاينة كافة التقارير في النظام الخاصة بجميع المفقودات سواء المسلمة  اوإجمالي عدد المفقودات بشكل يومي أو شهري أو حتي سنوي  .
+
+                  بإمكانك أيضا المطالعة علي إجمالي عدد الموظفين و معرفة صلاحياتهم في استخدام النظام
+                  و معاينة كافة محطات المترو و الحافلات و يوجد أيضا  إحصاءات خاصة بكل المفقودات و سهولة الاطلاع عليها </p>
+        </div>
+        <div class="mechanism-img col-12 col-md-6 d-flex justify-content-end">
+          <img src="../assets/images/mechanismImg3.svg" alt="">
+      </div>
+      </div>
+    </div>
+    </div>
+    <!-- end Mechanism section -->
+    
+    <!-- start partners section -->
+    <div class="partners-section py-4" id="clients">
+      <div class="container">
+        <div class="row align-items-center" style="overflow: hidden; flex-wrap: nowrap;">
+          <div class="partner partner1 d-flex justify-content-between slide-partner">
+            <img src="../assets/images/partner1.svg" alt="">
+            <img src="../assets/images/partner2.svg" alt="">
+            <img src="../assets/images/partner3.svg" alt="">
+            <img src="../assets/images/partner4.svg" alt="">
+            <img src="../assets/images/partner5.svg" alt="">
+          </div>
+          <!-- <div class="partner partner2 col-12 col-md-3 col-lg-2 slide-partner">
+          </div>
+          <div class="partner partner3 col-12 col-md-3 col-lg-2 slide-partner">
+          </div>
+          <div class="partner partner4 col-12 col-md-3 col-lg-2 slide-partner">
+          </div>
+          <div class="partner partner5 col-12 col-md-3 col-lg-2 slide-partner">
+          </div> -->
+        </div> 
+      </div>
+    </div>
+    <!-- end partners section -->
+    
+    <!-- start contact section -->
+    <div class="contact-section" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 mb-3">
+                  <h5 class="me-2 title-contact">تواصل معنا</h5>
+                  <form>
+                    <div class="mb-3">
+                      <input type="text" class="py-2 px-2 w-100 contact-inputs"  placeholder="الإسم بالكامل" required>
+                    </div>
+                    <div class="mb-3">
+                      <input type="text" class="py-2 px-2 w-100 contact-inputs" placeholder="رقم الجوال" required>
+                    </div>
+                    <div class="mb-3">
+                      <input type="email" class="py-2 px-2 w-100 contact-inputs"  placeholder="البريد الإلكترونى" required>
+                    </div>
+                    <div class="mb-3">
+                      <textarea class="py-2 px-2 w-100" rows="3 contact-inputs" placeholder="أدخل رسالتك هنا"></textarea>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                      <button type="submit" class="btn btn-contact">إرسال</button>
+                    </div>
+                  </form>  
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end contact section -->
+
+    <!-- start top footer section -->
+    <footer class="top-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-3 d-flex align-items-center justify-content-center text-center footer-content">
+            <a href="#" class="footer-logo">
+              <svg xmlns="http://www.w3.org/2000/svg" width="259.906" height="74" viewBox="0 0 259.906 74">
+                <g id="Logoo" transform="translate(222.09)">
+                  <rect id="Rectangle_1165" data-name="Rectangle 1165" width="44" height="74" rx="3" transform="translate(-6.184)" fill="#fff"/>
+                  <g id="ticks" transform="translate(3.666 5.48)">
+                    <path id="Logo_NIKE" d="M3.065,13.2S.775,13.106.147,11.772,1.1,7.158,1.1,7.158A14.078,14.078,0,0,1,3.3,3.482c.2-.225.576-.686.8-.884s.452-.328.421.205a16.914,16.914,0,0,0,0,3.993h0s.225,1.278,2.343,1.145a29.461,29.461,0,0,0,6.124-1.672l2.086-.9S26.2.3,26.822.068s1.516.112-.726,1.49c-3.231,1.984-7.619,5.371-13.251,8.37a54.164,54.164,0,0,1-5.15,2.356,16.6,16.6,0,0,1-4.631.915Z" transform="translate(0 22.377) rotate(-26)" fill="#fa8019"/>
+                    <path id="Logo_NIKE-2" data-name="Logo_NIKE" d="M2.138,9.207S.537,9.145.1,8.215s.664-3.22.664-3.22A9.824,9.824,0,0,1,2.3,2.432c.14-.157.4-.478.56-.617s.315-.229.29.143a11.8,11.8,0,0,0,0,2.786h0s.158.89,1.635.8A20.556,20.556,0,0,0,9.058,4.374l1.451-.627S18.281.212,18.715.047s1.058.078-.507,1.04c-2.255,1.384-5.316,3.749-9.246,5.84A37.8,37.8,0,0,1,5.368,8.572a11.585,11.585,0,0,1-3.231.635Z" transform="translate(0.001 13.574) rotate(-26)" fill="#fa8019"/>
+                    <path id="Logo_NIKE-3" data-name="Logo_NIKE" d="M1.491,6.421S.375,6.377.071,5.728.535,3.482.535,3.482A6.85,6.85,0,0,1,1.6,1.7c.1-.109.28-.334.387-.43s.22-.16.205.1A8.231,8.231,0,0,0,2.2,3.3h0s.11.62,1.14.556a14.331,14.331,0,0,0,2.98-.811l1.015-.438S12.748.148,13.049.033s.738.055-.354.724c-1.572.967-3.706,2.612-6.447,4.072A26.344,26.344,0,0,1,3.744,5.975a8.079,8.079,0,0,1-2.253.446Z" transform="translate(0.001 5.872) rotate(-26)" fill="#fa8019"/>
+                  </g>
+                  <line id="Line_56" data-name="Line 56" x1="45.013" transform="translate(-7.281 48.476)" fill="none" stroke="#fa7e19" stroke-width="2"/>
+                  <text id="ZOM" transform="translate(4.383 63.165)" fill="#f97f19" font-size="8" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="20" y="0">ZOM</tspan></text>
+                  <g id="slogan" transform="translate(-222.184 10.64)">
+                    <text id="زهـران_للصـيـانـة_والتشغـيـل" data-name="زهـران للصـيـانـة والتشغـيـل" transform="translate(10.031 17)" fill="#fff" font-size="16" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="180" y="0">زهـران للصـيـانـة والتشغـيـل</tspan></text>
+                    <text id="ZAHRAN_Operation_Maintenance" data-name="ZAHRAN Operation &amp; Maintenance" transform="translate(20.031 57.46)" fill="#fff" font-size="11" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="180" y="0">ZAHRAN Operation &amp; Maintenance</tspan></text>
+                    <path id="Path_1" data-name="Path 1" d="M204.6,0H-10.212" transform="translate(10.306 37.591)" fill="none" stroke="#fff" stroke-width="2"/>
+                  </g>
+                </g>
+            </svg>
+            </a>
+          </div>
+          <div class="col-12 col-md-12 col-lg-6 d-flex align-items-center justify-content-center text-center footer-content">
+            <ul class="footer-links d-flex m-0 p-0">
+              <li class="footer-link"><a href="#home">الرئيسية</a></li>
+              <li class="footer-link mx-4"><a href="#about">عن نظام المفقودات</a></li>
+              <li class="footer-link mx-4"><a href="#mechanism">آلية العمل</a></li>
+              <li class="footer-link mx-4"><a href="#clients">العملاء</a></li>
+              <li class="footer-link"><a href="#contact">اتصل بنا</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-12 col-lg-3 d-flex align-items-center justify-content-center text-center footer-content">
+            <a href="#"><i class="fa-brands fa-linkedin social-icon"></i></a>
+            <a href="#" class="mx-4"><i class="fa-brands fa-square-twitter social-icon"></i></a>
+            <a href="#"><i class="fa-brands fa-square-facebook social-icon"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end top footer section -->
+
+    <!-- start bottom footer section -->
+    <footer class="bottom-footer">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-12 col-md-12 col-lg-4 d-flex align-items-center bottom-footer-content">
+            <span  style="color: #AAAAAA;">تصميم وتطوير</span>
+            <a href="#" class="jaadara-logo">
+             <img src="../assets/images/jaadaraLogo.svg" alt="jaadaraLogo">
+            </a>
+          </div>
+          
+          <div class="col-12 col-md-12 col-lg-6 d-flex align-items-center justify-content-end bottom-footer-content">
+            <span>
+              <img src="../assets/images/copyrightLogo.svg" alt="">
+            </span>
+            <span style="color: #AAAAAA;">جميع الحقوق محفوظة &copy; لنظام المفقودات 2022</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end bottom footer section -->
+
+    <!-- start chat -->
+    <!--data-bs-toggle="modal" data-bs-target="#exampleModal"-->
+    <div class="fixed-bottom chatIcon" onclick="showChatBox()">
+      <img src="../assets/images/bootChat.png" alt="">
+    </div>
+
+    <!-- <div class="chat-box" > -->
+      <div class="chatBox" tabindex="-1" id="chatBox">
+        <div class="modal-dialog">
+          <div class="modal-content" style="height: 600px;">
+            <div class="modal-head py-2 px-2 d-flex align-items-center">
+              <div class="chat-wave-back">
+                <img src="../assets/images/waveChatBack.svg" alt="">
+              </div>
+              <div class="shadow-chat-wave-back">
+                <img src="../assets/images/shadowChatWaveBack.svg" alt="">
+              </div>
+              <i class="fa-regular fa-rectangle-xmark fa-xl text-white" style="cursor: pointer;" onclick="showChatBox()"></i>
+              <div class="MT">
+              <h5 class="modal-title">الأسئلة الشائعة</h5>
+              </div>
+            </div>
+            <div class="modalBody py-2">
+              <div id="accordion" class="py-3">
+                <div class="chat-question">
+                    <a class="card-link"  href="#collapseOne" data-bs-toggle="collapse"  aria-expanded="false" aria-controls="collapseOne">
+                     1- هذا النص هو مثال لنص يمكن أن يستبدل في نفس
+                      المساحة    
+                      <i class="fa-solid fa-angle-down me-3 arrowDown"></i>
+                    </a>
+                    </div>
+                    <div class="collapse" id="collapseOne">
+                      <div class="chat-answer">
+                        هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد يولدها  هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد يولدها هذا النص هو مثال لنص                       </div>
+                    </div>
+                <div class="chat-question my-2">
+                  <a class="card-link"  href="#collapseTwo" data-bs-toggle="collapse"  aria-expanded="false" aria-controls="collapseOne">
+                   2- هذا النص هو مثال لنص يمكن أن يستبدل في نفس
+                    المساحة
+                    <i class="fa-solid fa-angle-down me-3 arrowDown"></i>
+                  </a>
+                  </div>
+                  <div class="collapse" id="collapseTwo">
+                    <div class="chat-answer">
+                      هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد يولدها  هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد يولدها هذا النص هو مثال لنص                       </div>
+                  </div>
+              <div class="chat-question">
+                <a class="card-link" onclick="arrowUpDown()" href="#collapseThree" data-bs-toggle="collapse"  aria-expanded="false" aria-controls="collapseOne">
+                3- هذا النص هو مثال لنص يمكن أن يستبدل في نفس
+                  المساحة 
+                  <i class="fa-solid fa-angle-down me-3 arrowDown"></i> 
+                </a>
+                </div>
+                <div class="collapse" id="collapseThree">
+                  <div class="chat-answer px-2">
+                    هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد يولدها  هذا النص هو مثال لنص يمكن أن يستبدل في نفس المساحة، لقد تم توليد يولدها هذا النص هو مثال لنص                       </div>
+                </div>           
+            </div>
+            </div>
+            <div class="modalFooter w-100">
+              <img src="../assets/images/bootChat.png" alt="" onclick="showChatBox()" style="cursor: pointer;">
+              <div class="chat-input">
+              <input type="text" placeholder="نحن هنا للمساعدة" class="px-2 py-2 w-100">
+              <button type="button" class="btn-chat">إرسال</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- </div> -->
+    <!-- end chat -->
+
+
+
+    <!-- Bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>
+    <!-- slider
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script> -->
+    <!-- main js -->
+    <script src="../assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="259.906" height="74" viewBox="0 0 259.906 74">
+  <g id="Logoo" transform="translate(222.09)">
+    <rect id="Rectangle_1165" data-name="Rectangle 1165" width="44" height="74" rx="3" transform="translate(-6.184)" fill="#fff"/>
+      <g id="ticks" transform="translate(3.666 5.48)">
+        <path id="Logo_NIKE" d="M3.065,13.2S.775,13.106.147,11.772,1.1,7.158,1.1,7.158A14.078,14.078,0,0,1,3.3,3.482c.2-.225.576-.686.8-.884s.452-.328.421.205a16.914,16.914,0,0,0,0,3.993h0s.225,1.278,2.343,1.145a29.461,29.461,0,0,0,6.124-1.672l2.086-.9S26.2.3,26.822.068s1.516.112-.726,1.49c-3.231,1.984-7.619,5.371-13.251,8.37a54.164,54.164,0,0,1-5.15,2.356,16.6,16.6,0,0,1-4.631.915Z" transform="translate(0 22.377) rotate(-26)" fill="#fa8019"/>
+          <path id="Logo_NIKE-2" data-name="Logo_NIKE" d="M2.138,9.207S.537,9.145.1,8.215s.664-3.22.664-3.22A9.824,9.824,0,0,1,2.3,2.432c.14-.157.4-.478.56-.617s.315-.229.29.143a11.8,11.8,0,0,0,0,2.786h0s.158.89,1.635.8A20.556,20.556,0,0,0,9.058,4.374l1.451-.627S18.281.212,18.715.047s1.058.078-.507,1.04c-2.255,1.384-5.316,3.749-9.246,5.84A37.8,37.8,0,0,1,5.368,8.572a11.585,11.585,0,0,1-3.231.635Z" transform="translate(0.001 13.574) rotate(-26)" fill="#fa8019"/>
+          <path id="Logo_NIKE-3" data-name="Logo_NIKE" d="M1.491,6.421S.375,6.377.071,5.728.535,3.482.535,3.482A6.85,6.85,0,0,1,1.6,1.7c.1-.109.28-.334.387-.43s.22-.16.205.1A8.231,8.231,0,0,0,2.2,3.3h0s.11.62,1.14.556a14.331,14.331,0,0,0,2.98-.811l1.015-.438S12.748.148,13.049.033s.738.055-.354.724c-1.572.967-3.706,2.612-6.447,4.072A26.344,26.344,0,0,1,3.744,5.975a8.079,8.079,0,0,1-2.253.446Z" transform="translate(0.001 5.872) rotate(-26)" fill="#fa8019"/>
+          </g>
+          <line id="Line_56" data-name="Line 56" x1="45.013" transform="translate(-7.281 48.476)" fill="none" stroke="#fa7e19" stroke-width="2"/>
+            text id="ZOM" transform="translate(4.383 63.165)" fill="#f97f19" font-size="8" font-family="OpenSans-Semibold, Open Sans" font-weight="600"><tspan x="20" y="0">ZOM</tspan></text>
+            g id="slogan" transform="translate(-222.184 10.64)">
+          <text id="زهـران_للصـيـانـة_والتشغـيـل" data-name="زهـران للصـيـانـة والتشغـيـل" transform="translate(10.031 17)" fill="#fff" font-size="16" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="180" y="0">زهـران للصـيـانـة والتشغـيـل</tspan></text>
+        <text id="ZAHRAN_Operation_Maintenance" data-name="ZAHRAN Operation &amp; Maintenance" transform="translate(20.031 57.46)" fill="#fff" font-size="11" font-family="SegoeUI-Light, Segoe UI" font-weight="300"><tspan x="180" y="0">ZAHRAN Operation &amp; Maintenance</tspan></text>
+      <path id="Path_1" data-name="Path 1" d="M204.6,0H-10.212" transform="translate(10.306 37.591)" fill="none" stroke="#fff" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
